@@ -4,7 +4,7 @@
 \alias{mfil_abstract}
 \title{mFiL abstract format.}
 \usage{
-mfil_abstract()
+mfil_abstract(...)
 }
 \description{
 Format for creating an abstract for submission to mFiL.
