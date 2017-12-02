@@ -25,11 +25,9 @@
 \begin{center}
 \textbf{$title$}\\
 \vspace{0.5em}
-$for(author)$
-\textit{$author.name$, $author.affiliation$}\\
+\textit{$for(author)$$author.name$$sep$, $endfor$, $for(author)$$author.affiliation$$sep$, $endfor$}\\
 \vspace{0.25em}
-$author.email$
-$endfor$
+$for(author)$$author.email$$sep$, $endfor$
 \end{center}
 
 $body$
