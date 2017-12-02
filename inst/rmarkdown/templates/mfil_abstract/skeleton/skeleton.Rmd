@@ -1,0 +1,14 @@
+---
+title: "Abstract title"
+author:
+- name: "Forename Surname"
+  affiliation: "Your Affiliation"
+  email: "your@email.com"
+output: mfiltemplate::mfil_abstract
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Body.
