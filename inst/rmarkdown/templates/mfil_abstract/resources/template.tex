@@ -36,5 +36,5 @@ $body$
 
 \renewcommand\bibname{References} % Change title of bibliography from `Bibliography' to `References'
 \bibliographystyle{sp.bst} % Specify bibliography style file
-\bibliography{$bibliography$} % Specify bibliography file
+\bibliography{$for(bibliography)$$bibliography$$endfor$} % Specify bibliography file
 \end{document}
