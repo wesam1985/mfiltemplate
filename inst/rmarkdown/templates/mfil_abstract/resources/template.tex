@@ -18,7 +18,6 @@
 \usepackage{float} % Provides options for table and figure placement
 \usepackage[labelfont=bf]{caption} % Set table and figure labels to bold
 \usepackage{booktabs} % Provides rules for tables
-\newcommand\email[1]{{\tt\href{mailto:#1}{#1}}} % Creates e-mail environment
 
 \begin{document}
 % Compile with XeLaTeX or LuaLaTeX and BibTeX
@@ -29,7 +28,7 @@
 $for(author)$
 \textit{$author.name$, $author.affiliation$}\\
 \vspace{0.25em}
-\email{$author.email$}
+$author.email$
 $endfor$
 \end{center}
 
