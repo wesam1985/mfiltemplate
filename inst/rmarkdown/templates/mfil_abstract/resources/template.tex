@@ -19,6 +19,20 @@
 \usepackage[labelfont=bf]{caption} % Set table and figure labels to bold
 \usepackage{booktabs} % Provides rules for tables
 
+$if(listings)$
+\usepackage{listings}
+$endif$
+$if(lhs)$
+\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
+$endif$
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+$if(verbatim-in-note)$
+\usepackage{fancyvrb}
+\VerbatimFootnotes % allows verbatim text in footnotes
+$endif$
+
 \begin{document}
 % Compile with XeLaTeX or LuaLaTeX and BibTeX
 \raggedbottom
