@@ -2,6 +2,8 @@
 #'
 #' Format for creating an abstract for submission to mFiL.
 #'
+#' @param ... Optional arguments to be passed to \code{rmarkdown::pdf_document()}.
+#'
 #' @export
 mfil_abstract <- function(...) {
 

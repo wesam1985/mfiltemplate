@@ -6,6 +6,9 @@
 \usage{
 mfil_abstract(...)
 }
+\arguments{
+\item{...}{Optional arguments to be passed to \code{rmarkdown::pdf_document()}.}
+}
 \description{
 Format for creating an abstract for submission to mFiL.
 }
