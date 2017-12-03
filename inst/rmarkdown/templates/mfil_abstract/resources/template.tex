@@ -2,9 +2,9 @@
 \usepackage[UKenglish]{babel} % Provides support for English ty­po­graph­i­cal and hyphen­ation rules
 \usepackage[margin=2.5cm]{geometry} % Provides margins
 \usepackage{unicode-math} % Provides support for fonts
-\setmainfont{Junicode} % Sets font for main text
-\setmathfont{Junicode} % Sets font for text in a maths environment
-\setmonofont{Courier New} % Sets font for any monospaced text (e.g. URLs)
+\setmainfont{$if(mainfont)$$mainfont$$else$Junicode$endif$} % Sets font for main text
+\setmathfont{$if(mainfont)$$mainfont$$else$Junicode$endif$} % Sets font for text in a maths environment
+\setmonofont{$if(monofont)$$monofont$$else$Junicode$endif$} % Sets font for any monospaced text (e.g. URLs)
 \sloppy % Relaxes rules for line breaks
 %\frenchspacing % Adjusts character spacing
 \linespread{1} % Adjusts line spacing
