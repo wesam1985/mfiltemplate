@@ -1,8 +1,10 @@
 Package: mfiltemplate
-Title: What the Package Does (one line, title case)
+Title: Template For Abstract Submissions To mFiL
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Stefano", "Coretta", email = "mfilconf@gmail.com", role = c("aut", "cre"))
+Description: |
+ This package provides an rmarkdown template for abstracts
+ submissions to the Manchester Forum in Linguistics (mFiL)
 Depends: R (>= 3.4.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
