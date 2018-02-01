@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.1] - 2018-02-01
+
+### Added
+- support for `header-includes`
+
 ## [1.0.1] - 2017-12-03
 
 ### Added

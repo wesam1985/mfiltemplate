@@ -4,5 +4,5 @@ This package provides an `Rmd` template for abstract submission to the [Manchest
 
 # Installation
 
-To install the package and use the template, run `devtools::install_github("mfil-uom/mfiltemplate@v1.0.1")`.
+To install the package and use the template, run `devtools::install_github("mfil-uom/mfiltemplate@v1.0.2")`.
 After installation you can do `File > New File > R Markdown... > From template`, and chose `mFiL abstract`.
