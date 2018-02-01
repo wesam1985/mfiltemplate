@@ -7,7 +7,7 @@
 #'
 #' \dontrun{
 #' library(rmarkdown)
-#' draft("My-abstract.Rmd", template = "mfil_abstract", package = "mfiltemplate")
+#' draft("my-abstract.Rmd", template = "mfil_abstract", package = "mfiltemplate")
 #' }
 #' @export
 mfil_abstract <- function(...) {

@@ -12,3 +12,10 @@ mfil_abstract(...)
 \description{
 Format for creating an abstract for submission to mFiL.
 }
+\examples{
+
+\dontrun{
+library(rmarkdown)
+draft("My-abstract.Rmd", template = "mfil_abstract", package = "mfiltemplate")
+}
+}
