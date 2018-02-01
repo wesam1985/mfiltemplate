@@ -1,6 +1,11 @@
 # Change Log
 
-## [1.0.1] - 2018-02-01
+## Unreleased - 2018-02-01
+
+### Added
+- examples in `mfil_abstract()`
+
+## [1.0.2] - 2018-02-01
 
 ### Added
 - support for `header-includes`
